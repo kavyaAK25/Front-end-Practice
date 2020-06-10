@@ -1,0 +1,87 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic; 
+}
+
+.titleText {
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,-0.5)), url("blog_main_Bg_1.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.toolBar {
+	list-style-type: none;
+	float: right;
+	margin: 20px 20px 0 0;
+	font-weight: bold;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a {
+	text-decoration: none;
+	border: 1px solid transparent;
+	background-color: transparent;
+	padding: 5px 15px;
+	color: #fff;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color:#000;
+	transition: 0.6s ease; 
+}
+
+ul li.active a {
+	background-color: #fff;
+	color:#000;
+}
+
+.titleLogo img {
+	float: left;
+	width: 50px;
+	height: auto;
+}
+
+.main {
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.title p {
+	color: #000;
+	font-size: 70px;
+	font-weight: bold;
+}
+
+.button {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.btn {
+	color: #fff;
+	border: 2px solid #fff;
+	text-decoration: none;
+	padding: 5px 10px;
+	font-weight: bold;
+}
+
+.btn:hover{
+	background-color: #fff;
+	color:#000;
+	transition: 0.6s ease; 
+}
